@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "b4n1-secrets"
+version = "0.1.0"
+description = "Sovereign offline vault — committable encrypted secrets"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+readme = "README.md"
+authors = [{ name = "Bani Montoya", email = "banimontoya@gmail.com" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+Homepage = "https://github.com/B4N1-com/b4n1-secrets"
+Repository = "https://github.com/B4N1-com/b4n1-secrets"
+
+[tool.hatch.build.targets.wheel]
+packages = ["b4n1secrets"]
+include = ["b4n1secrets/bin/*"]
+
+[tool.hatch.build.targets.sdist]
+# sdist disabled per §10k — binary-only wheels
+enable = false

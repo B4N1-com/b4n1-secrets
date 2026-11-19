@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.b4n1</groupId>
+    <artifactId>b4n1-secrets</artifactId>
+    <version>0.1.0</version>
+    <packaging>jar</packaging>
+    <name>b4n1-secrets</name>
+    <description>Sovereign offline vault — committable encrypted secrets</description>
+    <licenses>
+        <license>
+            <name>Business Source License 1.1</name>
+            <url>https://mariadb.com/bsl11/</url>
+        </license>
+    </licenses>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+</project>
