@@ -25,7 +25,7 @@ from .binary import (
     run,
 )
 
-SDK_VERSION = "0.1.1"
+SDK_VERSION = "0.1.3"
 
 __version__ = SDK_VERSION
 __author__ = "Bani Montoya"

@@ -1,0 +1,17 @@
+# Build artifacts — never in master, only the sources.
+*.whl
+*.gem
+*.nupkg
+*.nuspec
+*.snupkg
+dist/
+target/
+
+# .NET build residue: the SDK ships sources, not compiled output.
+sdks/*/obj/
+sdks/*/bin/Release/
+sdks/bin/
+
+# mdBook output: generated at deploy time and published on the gh-pages
+# branch. master carries sources only.
+docs/book/

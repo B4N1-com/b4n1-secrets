@@ -1,8 +1,20 @@
 # b4n1-secrets
 
+[English](README.md) · [Español](i18n/README.es.md) · [Deutsch](i18n/README.de.md) · [Français](i18n/README.fr.md) · [Italiano](i18n/README.it.md) · [Português (BR)](i18n/README.pt-BR.md) · [Русский](i18n/README.ru.md) · [العربية](i18n/README.ar.md) · [हिन्दी](i18n/README.hi.md) · [日本語](i18n/README.ja.md) · [한국어](i18n/README.ko.md) · [中文](i18n/README.zh-CN.md)
+
+> **📖 Full manual — [b4n1-com.github.io/b4n1-secrets](https://b4n1-com.github.io/b4n1-secrets/)** · offline, inside the binary: `b4n1-secrets docs`
+
 Sovereign offline vault — committable encrypted secrets.
 
 ![b4n1-secrets](b4n1secrets_presentation.png)
+
+[![License](https://img.shields.io/badge/license-BUSL--1.1-blue.svg)](LICENSE)
+[![PyPI](https://badge.fury.io/py/b4n1-secrets.svg)](https://pypi.org/project/b4n1-secrets/)
+[![npm](https://img.shields.io/npm/v/@b4n1/secrets.svg)](https://www.npmjs.com/package/@b4n1/secrets)
+[![NuGet](https://img.shields.io/nuget/v/b4n1-secrets.svg)](https://www.nuget.org/packages/b4n1-secrets)
+[![RubyGems](https://badge.fury.io/rb/b4n1-secrets.svg)](https://rubygems.org/gems/b4n1-secrets)
+[![Packagist](https://img.shields.io/packagist/v/b4n1/b4n1-secrets.svg)](https://packagist.org/packages/b4n1/b4n1-secrets)
+
 
 **b4n1-secrets** is a self-contained, offline-first secret vault. Every value is encrypted individually (XChaCha20-Poly1305 + Argon2id) and stored in a single YAML file (`secrets.enc.yaml`) that you commit to git. The passphrase never touches disk — it lives only in RAM via a daemon, and `close` wipes it.
 

@@ -1,0 +1,40 @@
+[book]
+title = "b4n1-secrets — Sovereign Offline Vault"
+description = "Committable encrypted secrets: per-value encryption, passphrase only in RAM, one native core and seven SDKs"
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "light"
+smart-punctuation = true
+mathjax-support = false
+no-section-label = false
+git-repository-url = "https://github.com/B4N1-com/b4n1-secrets"
+git-repository-icon = "fab-github"
+edit-url-template = "https://github.com/B4N1-com/b4n1-secrets/edit/master/docs/src/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.search]
+enable = true
+limit-results = 10
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 3
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[build]
+build-dir = "book"
+create-missing = false
+
+# Playground disabled: mdBook implements it by calling a third-party service
+# from the visitor's browser. Our documentation site must not fire external
+# requests on behalf of whoever reads it.
+[output.html.playground]
+runnable = false
+editable = false
