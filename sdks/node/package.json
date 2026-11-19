@@ -1,6 +1,6 @@
 {
   "name": "@b4n1/secrets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sovereign offline vault — committable encrypted secrets",
   "main": "index.js",
   "types": "index.d.ts",

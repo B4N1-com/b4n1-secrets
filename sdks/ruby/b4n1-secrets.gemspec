@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "b4n1-secrets"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.summary = "Sovereign offline vault — committable encrypted secrets"
   s.description = "Thin Ruby wrapper around the b4n1-secrets binary."
   s.authors = ["Bani Montoya"]

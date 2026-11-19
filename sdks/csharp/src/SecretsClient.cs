@@ -23,13 +23,15 @@ namespace B4N1.Secrets
         private string Run(params string[] args)
         {
             var psi = new ProcessStartInfo(_binary);
-            foreach (var a in args) psi.ArgumentList.Add(a);
+            psi.Arguments = string.Join(" ", args);
             psi.RedirectStandardOutput = true;
             psi.RedirectStandardError = true;
             psi.UseShellExecute = false;
-            using var p = Process.Start(psi);
+            var p = Process.Start(psi);
             p.WaitForExit();
-            return p.StandardOutput.ReadToEnd().Trim();
+            string result = p.StandardOutput.ReadToEnd().Trim();
+            p.Dispose();
+            return result;
         }
         public string Version() => Run("--version");
         public string List(string dir, bool meta = false) => meta ? Run("list", dir, "--meta") : Run("list", dir);

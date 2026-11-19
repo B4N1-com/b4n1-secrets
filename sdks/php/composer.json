@@ -1,7 +1,7 @@
 {
   "name": "b4n1/b4n1-secrets",
   "description": "Sovereign offline vault — committable encrypted secrets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "BUSL-1.1",
   "autoload": {
     "psr-4": {
