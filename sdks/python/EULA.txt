@@ -1,10 +1,10 @@
-B4N1-NET — END USER LICENSE AGREEMENT (BINARIES)
+b4n1-secrets — END USER LICENSE AGREEMENT (BINARIES)
 ==================================================
 
-Version: 1.0 | Effective: 2026-11-18 | Applies to: b4n1-net 0.4.0+
+Version: 1.0 | Effective: 2026-11-18 | Applies to: b4n1-secrets 0.4.0+
 
 This End User License Agreement ("EULA") governs your use of the B4N1
-BINARY ARTIFACTS of b4n1-net — the bundled per-platform `b4n1net`
+BINARY ARTIFACTS of b4n1-secrets — the bundled per-platform `b4n1net`
 executables (`b4n1net-linux-amd64`, `b4n1net-linux-arm64`,
 `b4n1net-macos-x64`, `b4n1net-macos-arm64`, `b4n1net-windows-amd64.exe`
 and the remaining platform builds shipped under each SDK's `bin/`

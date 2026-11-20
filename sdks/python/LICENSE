@@ -8,7 +8,7 @@ License text copyright (c) 2017 MariaDB Corporation Ab, All Rights Reserved.
 Parameters
 
 Licensor:             B4N1 (b4n1.com)
-Licensed Work:        b4n1-web — Agentic browser engine for web automation,
+Licensed Work:        b4n1-secrets — Offline committable secret vault (XChaCha20-Poly1305 + Argon2id),
                       testing, and AI-powered browsing tasks.
 Additional Use Grant: You may use the Licensed Work in production, free of
                       charge, provided that your organization's total annual
