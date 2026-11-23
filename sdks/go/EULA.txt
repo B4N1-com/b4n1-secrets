@@ -1,16 +1,18 @@
-b4n1-secrets — END USER LICENSE AGREEMENT (BINARIES)
+B4N1-SECRETS — END USER LICENSE AGREEMENT (BINARIES)
 ==================================================
 
-Version: 1.0 | Effective: 2026-11-18 | Applies to: b4n1-secrets 0.4.0+
+Version: 1.0 | Effective: 2026-11-23 | Applies to: b4n1-secrets 0.1.3+
 
 This End User License Agreement ("EULA") governs your use of the B4N1
-BINARY ARTIFACTS of b4n1-secrets — the bundled per-platform `b4n1net`
-executables (`b4n1net-linux-amd64`, `b4n1net-linux-arm64`,
-`b4n1net-macos-x64`, `b4n1net-macos-arm64`, `b4n1net-windows-amd64.exe`
-and the remaining platform builds shipped under each SDK's `bin/`
-directory), the packaged per-language bindings (`*.whl`, npm tarball,
-`*.jar`, `*.nupkg`, gem, composer package, Go module), and the
-`b4n1net` standalone executable.
+BINARY ARTIFACTS of b4n1-secrets — the bundled per-platform `b4n1secrets`
+executables (`b4n1secrets-linux-amd64`, `b4n1secrets-linux-arm64`,
+`b4n1secrets-linux-ia32`, `b4n1secrets-macos-x64`,
+`b4n1secrets-macos-arm64`, `b4n1secrets-windows-amd64.exe`,
+`b4n1secrets-windows-ia32.exe` and the remaining platform builds
+shipped under each SDK's `bin/` directory), the packaged
+per-language bindings (`*.whl`, npm tarball, `*.jar`, `*.nupkg`,
+gem, composer package, Go module), and the `b4n1secrets` standalone
+executable.
 
 The SDK wrapper source files (the thin per-language bindings) are licensed
 separately under the Business Source License 1.1 — see the `LICENSE` file
@@ -19,7 +21,7 @@ and each registry's license metadata.
 1. DEFINITIONS
    "Binaries" means the compiled artifacts described above.
    "SDK" means the BUSL-1.1 licensed wrapper source distributed for each language.
-   "Source" means the Rust implementation, wire protocol, build scripts,
+   "Source" means the Rust implementation, vault format, build scripts,
    internal tests and internal documentation of the B4N1 engine. Source is
    NOT distributed under this EULA or any other license and remains
    proprietary.
@@ -42,10 +44,10 @@ and each registry's license metadata.
       copyright, license, watermark, or proprietary notices in the Binaries.
    d. NO RESALE AS A STANDALONE PRODUCT. The Binaries may not be resold,
       sublicensed, or offered as a competing product.
-   e. NO PROTOCOL DISCLOSURE AS A PRODUCT. You may interoperate with the
-      Binaries under this EULA, but you may not publish the wire format,
-      message sequence or key schedule as a specification or as the basis of
-      a competing transport.
+   e. NO VAULT-FORMAT DISCLOSURE AS A PRODUCT. You may interoperate
+      with the Binaries under this EULA, but you may not publish the
+      vault format, key-derivation scheme or storage layout as a
+      specification or as the basis of a competing vault.
    f. COMPLIANCE AND AUDIT. You will cooperate with reasonable verification of
       license status, including honoring embedded license validation.
 
