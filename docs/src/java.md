@@ -39,5 +39,5 @@ client.run(".secrets", secrets, List.of("java", "-jar", "agent.jar"));
   temp directory on first call.
 - `SecretsException` carries the exit code and stderr of the failed invocation.
 
-> Maven Central distribution is currently gated by an account quota issue; the
-> artifact is published to the other six registries. See the release history.
+> The Java SDK is distributed through the other channels while the Maven Central
+> entry is unavailable. See the release history.
