@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "project_hash": "ecfa975843be7454bb1632ca8f044490d78271767432ac82e98f393e5eb4a84a",
+  "identity_hash": "B4N1",
+  "device_dna": "local-dev",
+  "timestamp_utc": 1795681609,
+  "calendar_url": "https://alice.btc.calendar.opentimestamps.org",
+  "ots_receipt_b64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEI7PqXWEO+dFS7FjLKjwREkNeCcXZ0MqyC6Y85Pl60qErwCMWoH6VIUGinCPAgxQ4owVSyrtfKqBgNZIrk3yxWiNIGEuGjisFQCMYczYkI8BBjzXqq2zdW7dQ+b3oEUJtTCPEgWfJLQcxbLnV0sZ8059cY+SMVDLZzAaFju2/des0AbB0I8SDKFXav6CBNf50LiMZfOXAd+7t7ICusHBKNF28iiyt2ZgjxIP3ZiDi519WFmfDpkKZb7dKktTeNG1lFWofKaC3Ogs1gCPAgfbvBLGJWCW8wyL3i6ahcuOspsgDo+Rf8b6If1mBEoMcI8QRrB+1J8AjtGIQbPZBcQQCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+  "status": "CalendarPending"
+}
