@@ -6,7 +6,7 @@ Add the dependency to your `pom.xml`:
 <dependency>
   <groupId>com.b4n1</groupId>
   <artifactId>b4n1-secrets</artifactId>
-  <version>0.1.3</version>
+  <version>0.1.4</version>
 </dependency>
 ```
 
@@ -40,4 +40,4 @@ client.run(".secrets", secrets, List.of("java", "-jar", "agent.jar"));
 - `SecretsException` carries the exit code and stderr of the failed invocation.
 
 > Maven Central distribution is currently gated by an account quota issue; the
-> artifact is published to the other six registries. See the project changelog.
+> artifact is published to the other six registries. See the release history.

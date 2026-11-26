@@ -23,5 +23,5 @@
 ---
 
 - [Frequently Asked Questions](faq.md)
-- [Changelog](changelog.md)
+- [Release history](versions.md)
 - [License](license.md)
